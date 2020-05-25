@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin:0px;
+ }
+
+ /*Nav Bar Styling*/
+
+ nav{
+   box-shadow: 0px -9px 20px 0px #2f2f2f;
+   position:fixed;
+   top:0;
+   width: 100%;
+   background-color: white;
+   z-index: 9999;
+
+
+ }
+
+ nav img{
+    display: inline-block;
+    height:40px;
+    /*position:absolute;
+    left: 90*%;*/
+    float:right;
+    padding-right:1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+
+ }
+
+ a{
+    color: #707070;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    word-spacing: 30px;
+ }
+
+ nav ul li{
+     
+     font-family: Arial, Helvsetica, sans-serif;
+     display: inline-block;
+ 
+
+     align-items: center;
+     padding-right: 20px;
+ }
+ nav ul li a:hover{
+
+   color:black;
+
+ }
+
+ nav ul{
+    padding: 0%;
+    width:421px;
+    padding-left:1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+ }
+ /*Nav Bar Style END*/
+
+
+
+#wrapper a{
+   text-align: center;
+}
+ #johnBg{
+   position: relative;
+   color: balck;
+   text-align: center;
+}
+
+#JohnInfoBox{
+   width: 80%;
+   background-color: whitesmoke;
+
+   text-shadow: 0.0625rem 0.1875rem white;
+
+
+   position: absolute;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: Arial, Helvsetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#JohnInfoBox h1{
+   font-size: 3rem;
+   font-weight: 200;
+}
+#JohnInfoBox p{
+   font-size: 1.2rem;
+   padding: 1.5%;
+}
+
+img[src='../Images/johnInfo.jpg']{
+   width: 100%;
+   height: 620px;
+   display: block;
+   object-fit: cover;
+}
+
+
+
+
+ #footer{
+   text-align: center;
+   bottom: 0%;
+   margin-top: 2%;
+
+
+}
+
+#footer h4{
+   margin:0 auto;
+   text-align: center;
+}
