@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactStyle.css">
+    <title>Contact Us | John Gimiliaris</title>
+    <script src='main.js'></script>
+</head>
+<body onload="main()">
+    <nav>
+        <img src="/Images/logoTempt.png" alt="logo">
+        <ul>
+            <li><a href="../home/index.html">HOME</a></li>
+            <li><a href="../about/about.html">ABOUT</a></li>
+            <li><a href="../services/services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div id="wrapper">
+        
+        <div id="landing">
+            
+            <img src="../Images/johnInfo.jpg" alt="">
+
+
+
+            <div id="title">
+                <h1>Get In touch with us</h1>
+            </div>
+
+            
+           
+
+        </div>
+
+        <h4>Interested In Working with us? Fill in your details and we will get in touch </h4>
+    
+        <form id= 'ContactForm' action = 'http://google.com' method = 'get' >
+            
+            <!-- Personal Information  -->
+            <fieldset>
+        
+
+                <p><label> First Name(*): </label> <input type="text" id='fname' name="first_name" ></p>
+                <p id="fnameError" class = "Error" style="display:none; color:red">Please Enter Valid First Name</p>
+                <p><label> Last Name(*):   </label> <input type="text" id='lname' name="last_name"></p>
+                <p id="lnameError" class = "Error" style="display:none; color:red"> Please Enter Valid Last Name</p>
+                <p><label>Mobile(*) </label> <input type="text" id='phone' name="phone1"></p>
+                <p id="phoneError" class = "Error" style="display:none; color:red"> Please Enter Valid Phone Number</p>
+                <p><label> Email(*): </label> <input type="text" id = 'email' name="address_1" ></p>
+                <p id="emailError" class = "Error" style="display:none; color:red"> Please Enter Valid Email</p>
+            </fieldset>
+                
+            <fieldset>
+                <p><label> Which of our servces do you want to use?</label></p>
+                
+                <input type="radio" name="service" id = 'VidProd' value="video"> Video Production
+                <input type="radio" name="service" id = 'WebDev' value="website"> Website Development
+                <input type="radio" name="service" id = 'WbPres' value="web_presence"> Web Presence Overhaul
+                <p id='typeError' class = "Error" style="display:none; color:red"> Please Select one of the options</p>
+
+            </fieldset>
+                
+            <!--  Declaration  -->     
+                
+                <label> By clicking submit you agree with our privacy policy| We value your privacy and will not share your information.</label>  
+                <input type="Submit" > 
+        </form>   
+        
+    </div>
+
+
+    <div id="footer">
+        <h4>JohnGimiliaris. All rights recieverd</h4>
+    </div>
+    
+</body>
+</html>
