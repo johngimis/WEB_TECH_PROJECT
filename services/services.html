@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="servicesStyle.css">
+    <title>Services | John Gimiliaris</title>
+    <script src="main.js"></script>
+</head>
+
+<body onload="main()">
+    <nav>
+        <img src="/Images/logoTempt.png" alt="logo">
+        <ul>
+            <li><a href="../home/index.html">HOME</a></li>
+            <li><a href="../about/about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="../contact/contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div id="wrapper">
+        <img src="../Images/vidprod.jpg" alt="Video Produciton Services, camera shown.">
+
+
+
+        <section id="video">
+            <H1>Promotional Videos</H1>
+            <p>We provide video production services for all types of business and all styles, wether you want a playfull
+                or professional video we can privide both. All done with state of the art equipment.</p>
+        </section>
+
+        <img src="../Images/webdev.jpg" alt="Web Presence Image.">
+
+        <section id="Websites">
+            <h1>Website Creation</h1>
+            <p>We can create any website you want for your business regardless of how big or small you want. It can be a
+                single page or 10 you are guaranteed a result that you will like. If something is wrong we can just fix
+                it for you as many times as you want.</p>
+        </section>
+
+        <img src="../Images/webpres.jpg" alt="Web Presence Overhaul.">
+
+        <section id="WebPresence">
+            <h1>Web Presence</h1>
+            <p>
+                We can offer full web presence overhaul by working on your website, and social media accounts. In an age
+                that social media is the primary means of promotion for a large number of businesses.
+            </p>
+        </section>
+
+        <div id="form">
+            <h1>Have a custom request? Get In touch!</h1>
+
+            <form id="CustomRequest"  action="http://google.com" method="get">
+
+                <fieldset>
+                    <legend>Just write your details and your request and we will get in touch.</legend>
+
+                    <input type="text" placeholder = "First Name" id='fname' name="first_name" ></p>
+                    <p id="fnameError" class = "Error" style="display:none; color:red">Please Enter Valid First Name</p>
+                    <input type="text" placeholder = "Last Name"  id='lname' name="last_name"></p>
+                    <p id="lnameError" class = "Error" style="display:none; color:red"> Please Enter Valid Last Name</p>
+                    <input type="text" placeholder = "Email"  id='email' name="email"></p>
+                    <p id="emailError" class = "Error" style="display:none; color:red"> Please Enter Valid Email</p>
+
+                    <label for="clientReq">Request:</label>
+
+                    <textarea id="request" rows="4" cols="50">
+
+                    </textarea>
+                </fieldset>
+
+                <!-- Submit button -->
+                <label> By clicking submit you agree with our privacy policy| We value your privacy and will not share your information.</label>  
+                <input type="submit">
+            </form>
+        </div>
+
+    </div>
+
+
+    <div id="footer">
+        <h4>JohnGimiliaris. All rights recieverd</h4>
+    </div>
+
+
+</body>
+
+</html>
